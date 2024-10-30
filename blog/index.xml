@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Erawijantari</title>
-    <link>https://erawijantari.github.io/blog/</link>
-      <atom:link href="https://erawijantari.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Justing Liu</title>
+    <link>https://justinliu1119.github.io/blog/</link>
+      <atom:link href="https://justinliu1119.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://erawijantari.github.io/img/icon-192.png</url>
+      <url>https://justinliu1119.github.io/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://erawijantari.github.io/blog/</link>
+      <link>https://justinliu1119.github.io/blog/</link>
     </image>
     
   </channel>
