@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erawijantari</title>
+    <link>https://erawijantari.github.io/authors/author/</link>
+      <atom:link href="https://erawijantari.github.io/authors/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Erawijantari</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://erawijantari.github.io/img/icon-192.png</url>
+      <title>Erawijantari</title>
+      <link>https://erawijantari.github.io/authors/author/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://erawijantari.github.io/authors/author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://erawijantari.github.io/authors/author/</guid>
+      <description>&lt;p&gt;I am a Postdoctoral Researcher at University of Turku where I worked with group of &lt;a href=&#34;https://www.hypertensioncenter.org/&#34;&gt;Turku Hypertension Center&lt;/a&gt; and &lt;a href=&#34;http://datascience.utu.fi/&#34;&gt;Turku Data Science Group&lt;/a&gt;. In this group, I take part in exploring the gut microbiome world through various data analysis approaches toward clinical application.&lt;/p&gt;
+&lt;p&gt;Originally my initial training was in biology, where I have worked on the deep-sea metagenomics study, synthetic biology, and phytochemical effectiveness as anticancer treatment. Currently, I am mostly working behind the computer. My current research mainly focus on the dynamics of human gut microbiome in  human health and diseases condition using large population data. This study uses the multi-omics approaches, which involve the metagenomics and metabolomics analyses on human fecal samples. I used Python, R, and shell scripting for my projects, which mostly run in the cluster computer. Complexity and fast-growing data in microbiome study also push me to learn a lot of new skills, which are a fascinating process. I am particularly interested in understanding the roles of microbiome as an effect or consequence in human health conditions.&lt;/p&gt;
+&lt;p&gt;Aside from research, I like to spend my spare time reading, mostly popular science books and novels. I love singing, Balinese dancing, and trying new food recipes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
