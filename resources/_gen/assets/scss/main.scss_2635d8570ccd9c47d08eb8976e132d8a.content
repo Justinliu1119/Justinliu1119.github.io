@@ -8951,3 +8951,19 @@ div.mermaid {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem; }
+
+.projects-list-wrap {
+  display: flex; }
+
+.prj1-inventory-text {
+  color: #226e93;
+  font-family: Lora, serif;
+  font-size: 19pt;
+  font-weight: 400; }
+
+.project-detail-page-wrap .article-container {
+  max-width: 1240px; }
+
+.project-detail-page-wrap img {
+  max-width: 100%;
+  height: auto; }

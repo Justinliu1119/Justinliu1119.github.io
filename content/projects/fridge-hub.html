@@ -1,0 +1,22 @@
+---
+title: Fridge-Hub
+
+---
+
+<div class="projects-list-wrap project-detail-content" style="text-align: center;">
+  <div>
+    <div><img src="/img/projects/p1d1.png" /></div>
+      Our design of the Fridgehub consisted of key modules: a local fridge-embedded device governed by the Atmega328, a Raspberry Pi as a liaison between the main device and the database, and a mobile app. The proposed methodologies employ a combination of components such as a barcode scanner, LCD display, temperature sensor, keypad, and Raspberry Pi with the Atmega328p at its core. Along with a cloud storage database (Firebase) and a mobile app, we empower multimedia management of the fridge inventory. Through the hardware implementation, the Atmega328p retrieves the barcode number from the scanning mechanism. Subsequently, our local software interprets the message and matches the universal barcode number with its specific product counterpart. The keypad can then be used by the user to enter the expiration date of the product in the year/month/day format. We also designate the keypad for the user to navigate through the list of menus in the inventory system that includes product name & quantity, expiration date, and storage method. From a safety perspective, the temperature sensor records real-time temperature and alerts the user via flickering the green LEDs if the temperature exceeds a set threshold. All the information discussed above is illustrated to the user via our LCD display.
+    <div><img src="/img/projects/p1d3.png" /></div>
+  </div>
+  <div>
+    <div style="">
+      <img src="/img/projects/p1d2.png" />
+      <p class="prj1-inventory-text">Database Inventory</p>
+    </div>
+    <div>
+      After all, the information stored locally will be sent to the Raspberry Pi from the Atmega328p via SPI(Serial Peripheral Interface). Our FridgeHub features a user-friendly grocery management app developed with SwiftUI, optimizing inventory management. Connected to Firebase's real-time database, it ensures that all household members have instant access to synchronized grocery data. The app's architecture follows the MVVM (Model-View-ViewModel) design pattern. The ViewModel interacts with Firebase for data operations, fetching, and storing, while the View layer handles user interactions and data presentation. Along with the APP, we hope our product can provide the smart home device community with a comprehensive sustainability and safety standpoint to explore the usage of Fridgehub for the betterment of the environment.
+    </div>
+  </div>
+</div>
+

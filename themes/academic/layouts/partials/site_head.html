@@ -97,7 +97,8 @@
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
   {{/* Hugo's htmlEscape cannot escape "|" in Google Font URIs so we implement our own escape functionality. */}}
   {{ with ($scr.Get "google_fonts") }}
-  <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>
+  {{/*<link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>*/}}
+  <link rel="stylesheet" {{ printf "href=\"https://fonts.font.im/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>
   {{ end }}
 
   {{ $css_comment := printf "/*!* Source Themes Academic v%s (https://sourcethemes.com/academic/) */\n" site.Data.academic.version }}

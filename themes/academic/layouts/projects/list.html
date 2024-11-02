@@ -1,0 +1,46 @@
+
+{{- define "main" -}}
+
+  <style>
+
+    .prj-list-page section {
+        padding-bottom: 50px;
+    }
+    .card-link {
+
+    }
+  </style>
+
+
+    <div class="container prj-list-page" style="padding-top: 50px;">
+
+
+
+        {{ range page.Params.projects }}
+          <section class="row">
+            <div class="col-12 col-lg-5">
+                {{- with .img1 -}}<img src="{{ . }}" />{{- end -}}
+                {{- with .img2 -}}<img src="{{ . }}" />{{- end -}}
+            </div>
+            <div class="col-12 col-lg-7">
+              <div>
+                  {{- with .link -}}<a class="card-link" href="{{ . | relLangURL }}">{{- end -}}
+                    {{ .pjTitle }}
+                  {{- with .link -}}</a>{{- end -}}
+              </div>
+
+                {{- with .subtitle -}}<div>{{ . }}</div>{{- end -}}
+
+                {{- with .desc -}}
+                  <div class="">{{ . | markdownify | emojify}}</div>
+                {{- end -}}
+            </div>
+          </section>
+
+        {{ end }}
+
+
+    </div>
+
+
+{{- end -}}
