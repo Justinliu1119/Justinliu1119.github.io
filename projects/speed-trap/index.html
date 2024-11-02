@@ -28,10 +28,13 @@
   
     
   
-  <meta name="description" content="Undergraduate">
+  <meta name="description" content="
+Speed Trap
+The speed trap measures how fast an object is moving as it passes two sensors and display the speed on a dial-type indicator. It also relays that speed to a remote device.
+The speed in cm/sec is shown on the LCD display and also on an indicator dial similar to an analog speedometer used on many cars where a pointer rotates to point to the speed. A block diagram of the speed trap is shown on the right and it has the following features:">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://justinliu1119.github.io/blog/">
+  <link rel="alternate" hreflang="en-us" href="https://justinliu1119.github.io/projects/speed-trap/">
 
   
 
@@ -97,14 +100,12 @@
 
 
   
-  <link rel="alternate" href="/blog/index.xml" type="application/rss+xml" title="YAO (Justin) LIU">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://justinliu1119.github.io/blog/">
+  <link rel="canonical" href="https://justinliu1119.github.io/projects/speed-trap/">
 
   
   
@@ -117,11 +118,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="YAO (Justin) LIU">
-  <meta property="og:url" content="https://justinliu1119.github.io/blog/">
-  <meta property="og:title" content="Posts | YAO (Justin) LIU">
-  <meta property="og:description" content="Undergraduate"><meta property="og:image" content="https://justinliu1119.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://justinliu1119.github.io/projects/speed-trap/">
+  <meta property="og:title" content="Speed Trap | YAO (Justin) LIU">
+  <meta property="og:description" content="
+Speed Trap
+The speed trap measures how fast an object is moving as it passes two sensors and display the speed on a dial-type indicator. It also relays that speed to a remote device.
+The speed in cm/sec is shown on the LCD display and also on an indicator dial similar to an analog speedometer used on many cars where a pointer rotates to point to the speed. A block diagram of the speed trap is shown on the right and it has the following features:"><meta property="og:image" content="https://justinliu1119.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://justinliu1119.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
+    
     
   
 
@@ -129,17 +134,19 @@
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Posts | YAO (Justin) LIU</title>
+
+
+  <title>Speed Trap | YAO (Justin) LIU</title>
 
 </head>
 
@@ -283,7 +290,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/projects/"><span>Projects</span></a>
+          <a class="nav-link  active" href="/projects/"><span>Projects</span></a>
         </li>
 
         
@@ -316,45 +323,262 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="project-detail-page-wrap article article-project">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Speed Trap</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
+
+
+<div class="article-metadata">
 
   
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
+    <div class="article-style">
+      <p><img src="/img/projects/p2d1.png"></p>
+<p><strong>Speed Trap</strong></p>
+<p>The speed trap measures how fast an object is moving as it passes two sensors and display the speed on a dial-type indicator. It also relays that speed to a remote device.</p>
+<p>The speed in cm/sec is shown on the LCD display and also on an indicator dial similar to an analog speedometer used on many cars where a pointer rotates to point to the speed. A block diagram of the speed trap is shown on the right and it has the following features:</p>
+<p>Two LED light sources, and two phototransistors light detectors for determining the time it takes for an object to go from the first sensor to the second sensor.</p>
+<p>An LED to indicate that a speed measurement is in progress.</p>
+<p>An LCD display for showing the measured time to pass the sensors in msec and the speed in cm/sec. The display is also used for setting a speed threshold and displaying the speed received from the remote device.</p>
+<p>A dial-type speedometer display for indicating the speed.</p>
+<p>A knob for selecting a speed threshold.</p>
+<p>A buzzer for playing an alarm tone.</p>
+<p>A serial interface (RS-232) to another speed trap unit. When the local unit measures a speed it sends it to the remote unit. When a speed is received from the remote unit it is displayed on the LCD.</p>
+<p>Two LEDs for comparing the speed measured on the local device with a speed received from the remote unit.</p>
+<p><img src="/img/projects/p2d2.png"></p>
+<p>The two detectors are made from two white LEDs and two phototransistors. The LEDs and phototransistors are positioned so the light from the LED is illuminating the phototransistor unless some object blocks the path as shown below. The LEDs don&rsquo;t have to be controlled by the Arduino and can be wired to be on all the time. The phototransistors should each be connected to a digital input port bit and monitored using the pin change interrupts similar to how you handle the rotary encoder inputs. When the phototransistor can &ldquo;see&rdquo; the light from the LED the digital input will be a one. When an object blocks the light path, the input will go to a zero.</p>
 
-  
+    </div>
 
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://justinliu1119.github.io/projects/speed-trap/&amp;text=Speed%20Trap" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://justinliu1119.github.io/projects/speed-trap/&amp;t=Speed%20Trap" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Speed%20Trap&amp;body=https://justinliu1119.github.io/projects/speed-trap/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://justinliu1119.github.io/projects/speed-trap/&amp;title=Speed%20Trap" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Speed%20Trap%20https://justinliu1119.github.io/projects/speed-trap/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://justinliu1119.github.io/projects/speed-trap/&amp;title=Speed%20Trap" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/authors/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
 
       
 
