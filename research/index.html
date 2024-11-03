@@ -118,7 +118,7 @@
   
   <meta property="og:site_name" content="YAO (Justin) LIU">
   <meta property="og:url" content="https://justinliu1119.github.io/research/">
-  <meta property="og:title" content="Research Experiences | YAO (Justin) LIU">
+  <meta property="og:title" content="Research | YAO (Justin) LIU">
   <meta property="og:description" content="Undergraduate"><meta property="og:image" content="https://justinliu1119.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://justinliu1119.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
@@ -139,7 +139,7 @@
 
 
 
-  <title>Research Experiences | YAO (Justin) LIU</title>
+  <title>Research | YAO (Justin) LIU</title>
 
 </head>
 
@@ -252,16 +252,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#research"><span>Researches</span></a>
+          <a class="nav-link  active" href="/research"><span>Research</span></a>
         </li>
 
         
@@ -316,82 +309,91 @@
 </nav>
 
 
-  
+  <style>
+
+    .prj-list-page section {
+        padding-bottom: 50px;
+    }
+    .r-title {
+      color: #000000;
+      font-size: 1.2rem;
+    }
+  </style>
 
 
 
 
+    <div class="container prj-list-page" style="padding-top: 30px;">
+
+      <div class="row" style="display: block; padding-bottom: 30px;">
+        <h3>Research</h3>
+      </div>
 
 
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization—Stanford University. Remote</span></div><div>Advisor: <a href="https://web.stanford.edu/~yyye/index.html">Prof. Yinyu Ye</a></div><div class=""><ul>
+<li>Co-developed and simulated an adaptive online optimization algorithm under revealed parameters, and known distribution settings respectively to determine equilibrium-optimal prices and allocations for the Arrow-Debreu Market</li>
+<li>Improved regret  and constraint violation  respectively with both the online adaptive certainty equivalent algorithm, and Sample Averaged Approximation, outperforming the static pricing model benchmarked against the offline oracle</li>
+<li>Empirically and analytically proved the price convergence in the revealed parameter setting with Sampled Averaged Approximation</li>
+</ul>
+</div></section>
+
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">Distributed Inference &amp; Malicious Device Detection Via Dynamic Redundancy—USC. Los Angeles, CA</span></div><div>Advisor: Prof. <a href="https://sites.usc.edu/eessc/people/">Peter Beerel</a>, Aug. 2024-Present</div><div class=""><ul>
+<li>Contributed to validating the probabilistic framework for detecting attacks on single and multiple devices with redundancy computation that guarantees confidence interval</li>
+<li>Validated the detection difference bound, showing that the detection probability gap between independent and centralized RNG methods remains minimal across varying redundancy ratios</li>
+</ul>
+</div></section>
+
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">Optimized Computing on Training Object Detection Models—USC. Los Angeles, CA</span></div><div>Advisor: Prof. <a href="https://sites.usc.edu/eessc/people/">Peter Beerel</a>,  Oct. 2023-July 2024</div><div class=""><ul>
+<li>Developed an algorithm to create Rolling Shutter (RS) effects by amalgamating successive rows from sequences of high frame rate Global Shutter (GS) images, which were generated using Unreal Engine 5 (UE5)</li>
+<li>Trained &amp; fine-tuned object detection models (YOLOv8 &amp; DETR) on the synthetic datasets using a mix of real and synthetic data</li>
+<li>Validated the proposed pipeline on the corresponding real-world datasets, demonstrating substantial improvements in precision (13.1%), recall (53.1%), and mean Average Precision (30.3%)</li>
+<li>Demonstrated that ISP-less CV pipelines could achieve comparable performance to traditional ISP CV pipelines at a lower hardware cost when fine-tuned with real datasets</li>
+</ul>
+</div></section>
+
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">Safe Inverse Reinforcement Learning with Stochastic Variational Delays. Remote</span></div><div>Advisor: Prof. Qi Zhu,  March. 2024- Present</div><div class=""><ul>
+<li>Studied Markov Decision Processes under augmented state spaces with time delays, and temporal-difference learning for behavior cloning</li>
+<li>Explored the inference of reward functions from observed behavior and implemented the Soft Actor-Critic (SAC) algorithm to optimize policies based on the inferred reward function</li>
+</ul>
+</div></section>
+
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">USC Khajavikhan Acoustic Lens Research Lab. Los Angeles, CA</span></div><div>Team Leader | Advisor: Prof. Mercedeh Khajavikhan. Aug. 2022-May 2023</div><div class=""><ul>
+<li>
+<p>Coupled laser beam into optical fiber and designed precise housing for fiber-transducer alignment, utilizing techniques in Gaussian beam propagation(beam waist optimization and mode matching) which has contributed to:</p>
+<pre><code>n  Efficient light propagation through the acousto-optic system, enhancing the interaction between optical and acoustic. 
+
+n  Tunable lensing power range with an inverse focal length variation from 1.88 1/m to 2.55 1/m, based on duty cycle adjustments.
+</code></pre>
+</li>
+<li>
+<p>Built a temperature detector with Arduino-embedded drone to detect real-time temperature within the water tank through which the laser beam penetrates</p>
+</li>
+</ul>
+</div></section>
+
+        
+          <section class="row" style="display: block; ">
+            <div><span class="r-title">Tsinghua University Department of Electronic—MetaCam. Beijing, China</span></div><div>Team Leader | Advisor: Prof. Hongwei Chen &amp; Dr. Chengyang Hu. May 2023-Aug. 2023</div><div class=""><ul>
+<li>Assisted to implement a spatial-adaptive CNN architecture that significantly improved imaging quality by effectively mitigating optical aberrations through the precise removal of Point Spread Functions (PSFs).</li>
+<li>Simulated a raytracing and superposition algorithm to create PSF-convoluted images, simulating real-world optical aberrations for generating synthetic data to train a CNN, enhancing image restoration.</li>
+<li>Enhanced a spatial-adaptive CNN by using PSF-convoluted synthetic data, significantly improving correction of spatially variant blur and chromatic dispersion; This approach reduced artificial textures, preserved image details, and lowered computational overhead, achieving a 1.7% improvement in restoration over state-of-the-art methods.</li>
+</ul>
+</div></section>
+
+        
 
 
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Research Experiences</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-  <div class="article-style"><p>I am curently involve in several research projects related to explorations of gut microbiome and metabolome in gastrointestinal related diseases. My PhD project aims for <strong>comprehensive characterizations of human fecal microbiome and metabolome after gastrectomy for gastric cancer</strong>. In additions, I also actively involve as a research assistant for hereditary colorectal cancer project and diet-microbiome project during my PhD. My posdoctoral research project further explore the potential association of human microbiome with long-term diseases condition using the large, deeply phenotype population cohort.</p>
-<p><br></br></p>
-<h4 id="publications-and-conferences">Publications and Conferences</h4>
-<p><strong>2020</strong></p>
-<h5 id="influence-of-gastrectomy-for-gastric-cancer-treatment-on-faecal-microbiome-and-metabolome-profiles">Influence of gastrectomy for gastric cancer treatment on faecal microbiome and metabolome profiles</h5>
-<p><strong>Erawijantari PP</strong>, Mizutani S, Shiroma H, Shiba S, Nakajima T, Sakamoto T, Saito Y,
-Fukuda S , Yachida S, Yamada T. Influence of gastrectomy for gastric cancer treatment on faecal microbiome and metabolome profiles. <a href="https://gut.bmj.com/content/early/2020/01/09/gutjnl-2019-319188">Gut</a>. Published Online First: 16 January 2020. doi: 10.1136/gutjnl-2019-319188.</p>
-<p><strong>2019</strong></p>
-<h5 id="fecal-microbiome-and-metabolome-characterizations-of-patients-after-gastrectomy-for-gastric-cancer-treatment">Fecal microbiome and metabolome characterizations of patients after gastrectomy for gastric cancer treatment</h5>
-<p><strong>Erawijantari PP</strong>, Mizutani S, Shiroma H, Yachida S, Yamada T. October 6, 2019; <a href="https://www.keystonesymposia.org/index.cfm?e=web.Meeting.Program&meetingid=1696">Keystone Symposia on Molecular and Cellular Biology: Microbiome: Therapeutic Implications (T1)</a>. <strong>Poster</strong>.
-<br></br></p>
-<p><strong>2018</strong></p>
-<h5 id="metagenomic-and-metabolomic-profiling-to-characterize-the-effect-of-gastrectomy-as-gastric-cancer-treatment-on-human-gut-microbiome">Metagenomic and metabolomic profiling to characterize the effect of gastrectomy as gastric cancer treatment on human gut microbiome</h5>
-<p><strong>Erawijantari PP</strong>, Mizutani S, Shiroma H, Yachida S, Yamada T. June 26-28, 2018; <a href="http://apc.ucc.ie/ihmc-2018/">7th International Human Microbiome Consortium : Translating microbiome science</a>. <strong>Poster</strong>. <strong>Selected as Early Career Scientist Bursary Recipient</strong>.</p>
-<h5 id="characterization-of-human-gut-microbiome-and-metabolome-sof-gastric-cancer-patients-after-gastrectomy">Characterization of human gut microbiome and metabolome sof gastric cancer patients after gastrectomy</h5>
-<p><strong>Erawijantari PP</strong>, Mizutani S, Shiroma H, Yachida S, Yamada T. March 5, 2018; <a href="https://tks.keystonesymposia.org/index.cfm?e=web.Meeting.Program&meetingid=1522">Keystone Symposia on Molecular and Cellular Biology: Manipulation of the Gut Microbiota for Metabolic Health</a>. <strong>Poster</strong>.</p>
-<h2 id="past-research"><strong>Past Research</strong></h2>
-<p>I have worked on the deep-sea metagenomics study and synthetic biology during my undergraduate years. After graduations in bachelor program, I have worked in private research institute working on phytochemical effectiveness as anticancer treatment.
-<br></br></p>
-<h4 id="publications-and-conferences-1">Publications and Conferences</h4>
-<p><strong>2016</strong></p>
-<h5 id="anti-inflammatory-effect-of-mangosteen-garcinia-mangostana-l-peel-extract-and-its-compounds-in-lps-induced-raw2647-cell">Anti-inflammatory effect of mangosteen (Garcinia mangostana L.) peel extract and its compounds in LPS-induced RAW264.7 cell</h5>
-<p>Widowati W, Darsono L, Suherman J, Fauziah N, Maesaroh M, <strong>Erawijantari PP</strong>.  Nat Prod Sci. 2016 Sep;22(3):147-153.</p>
-<h5 id="tea-flavonoids-induced-differentiation-of-peripheral-blood-derived-mononuclear-cells-into-peripheral-blood-derived-endothelial-progenitor-cells-and-suppressed-intracellular-reactive-oxygen-species-level-of-peripheral-blood-derived-endothelial-progenitor-cells">Tea flavonoids induced differentiation of peripheral blood-derived mononuclear cells into peripheral blood-derived endothelial progenitor cells and suppressed intracellular reactive oxygen species level of peripheral blood-derived endothelial progenitor cells</h5>
-<p>Widowati W, Wijaya L, Laksmitawati DR, Widyanto RM, <strong>Erawijantari PP</strong>, Fauziah N, Bachtiar I, Sandra F.  Nat Prod Sci. 2016 Jun;22(2):87-92.</p>
-<p><strong>2015</strong></p>
-<h5 id="in-silico-analysis-of-plantaricin-ef-that-expressed-by-plasmid-associated-bacteriocin-production-gene-of-lactobacillus-plantarum-ibl-2-for-anti-candida-agent-potential">In silico Analysis of Plantaricin EF that Expressed by Plasmid-Associated Bacteriocin Production Gene of Lactobacillus plantarum IBL-2 for Anti-Candida Agent Potential</h5>
-<p>Nurhayati B, Wibowo MS, Widyastuti Y, <strong>Erawijantari PP</strong>, Widowati W, Pratama MRF, Kartawinata TG. Res J Microbiol. 2015 Dec;10(12):582-591.</p>
-<h5 id="in-vitro-study-of-myristica-fragrans-seed-nutmeg-ethanolic-extract-and-quercetin-compound-as-anti-inflammatory-agent">In vitro study of Myristica fragrans seed (Nutmeg) ethanolic extract and quercetin compound as anti-inflammatory agent</h5>
-<p>Dewi K, Widyarto B, <strong>Erawijantari PP</strong>, Widowati W. Int J Res Med Sci 3 (9), 2303-2310.</p>
-<p><strong>2014</strong></p>
-<h5 id="mutation-and-expression-of-β-glucosidase-gene-isolated-from-kawio-island-north-sulawesi-deep-sea-metagenome">Mutation and expression of β-glucosidase gene isolated from Kawio island, North Sulawesi Deep Sea, Metagenome</h5>
-<p><strong>Erawijantari PP</strong>, Moeis MR. Nov 3, 2014; 5th International Conference on Mathematics and Natural Science. <strong>Talk</strong>.</p>
-<h5 id="a-new-whole-cell-biocatalyst-to-degrade-poly-ethylene-terephthalate-pet">A new whole cell biocatalyst to degrade poly-ethylene terephthalate (PET)</h5>
-<p><strong>Erawijantari PP</strong>, Tri EH, Oktira RA, Nimas G, Joko PT, Christian H, Risma W, Tirta WGC, Suhandono S, Natalia D, Moeis MR.  Nov, 2014; Symposium Nanotechnology and Biotechnology 2014. <strong>Talk</strong>. <em>This project also get a Gold medal at <a href="http://2014.igem.org/Team:ITB_Indonesia">iGEM 2014</a></em>.</p>
-</div>
-  
-
-  
-  
-
-  
-
-</div>
+    </div>
 
       
 

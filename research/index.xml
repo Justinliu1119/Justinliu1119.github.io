@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research Experiences | YAO (Justin) LIU</title>
+    <title>Research | YAO (Justin) LIU</title>
     <link>https://justinliu1119.github.io/research/</link>
       <atom:link href="https://justinliu1119.github.io/research/index.xml" rel="self" type="application/rss+xml" />
-    <description>Research Experiences</description>
+    <description>Research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://justinliu1119.github.io/img/icon-192.png</url>
-      <title>Research Experiences</title>
+      <title>Research</title>
       <link>https://justinliu1119.github.io/research/</link>
     </image>
     
