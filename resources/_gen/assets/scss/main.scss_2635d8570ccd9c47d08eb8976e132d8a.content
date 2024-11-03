@@ -8967,3 +8967,6 @@ div.mermaid {
 .project-detail-page-wrap img {
   max-width: 100%;
   height: auto; }
+
+.award-time {
+  color: rgba(0, 0, 0, 0.54); }
