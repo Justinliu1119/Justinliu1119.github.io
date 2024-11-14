@@ -21,13 +21,15 @@ date_format = "Jan 2006"
 [[item]]
   publication_name = "Let’s Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types"
   publication_url = ""
-  writer_names = "Yao Liu, Peter Beerel, Yue Hu, Gourav Datta, Kira Beerel"
+#  writer_names = "Yao Liu, Peter Beerel, Yue Hu, Gourav Datta, Kira Beerel"
+  writer_names = "Yue Hu, Gigutay Datta, Kira Beerel, **Yao Liu**, Peter Beerel"
   organization = "IEEE SiPS 2024"
 
 [[item]]
   publication_name = "Exploring the associations between teacher and student depression: evidence from rural primary school students in China"
   publication_url = ""
-  writer_names = "Yao Liu, Yue Ma, Xiyuan Jia, Cindy Feng, Lucia Liu, Anton Xia"
+#  writer_names = "Yao Liu, Yue Ma, Xiyuan Jia, Cindy Feng, Lucia Liu, Anton Xia"
+  writer_names = "Yue Ma, Lucia Liu, **Yao Liu**, &iyan Jia, Cindy Feng, Anton Xia"
   organization = "Social Psychology of Education 2024"
 
 

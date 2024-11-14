@@ -45,22 +45,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:erawijantari.p.aa@m.titech.ac.jp  # For a direct email link, use "mailto:erawijantari.p.aa@m.titech.ac.jp".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/erawijantaript
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.jp/citations?user=5XrZqdQAAAAJ&hl=en
+  link: mailto:jliu3548@usc.edu  # For a direct email link, use "mailto:erawijantari.p.aa@m.titech.ac.jp".
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/erawijantaript
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.jp/citations?user=5XrZqdQAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/erawijantari
+  link: https://github.com/justinliu1119
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/erawijantari-pande-putu/
-- icon: orcid
-  icon_pack: fab
-  link: https://orcid.org/0000-0002-5173-6347
+  link: https://www.linkedin.com/in/justinyliu/
+#- icon: orcid
+#  icon_pack: fab
+#  link: https://orcid.org/0000-0002-5173-6347
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #- icon: cv
