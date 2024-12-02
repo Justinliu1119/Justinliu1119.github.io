@@ -6,6 +6,10 @@
     .prj-list-page section {
         padding-bottom: 50px;
     }
+    .prj-list-page h3 {
+      color: #000000;
+      font-size: 1.2rem;
+    }
     .r-title {
       color: #000000;
       font-size: 1.2rem;
@@ -22,22 +26,7 @@
       </div>
 
 
-        {{ range page.Params.item }}
-          <section class="row" style="display: block; ">
-            <div>
-                {{- with .link -}}<a class="card-link" href="{{ . | relLangURL }}">{{- end -}}
-                <span class="r-title">{{ .title }}</span>
-                {{- with .link -}}</a>{{- end -}}
-            </div>
-
-              {{- with .subtitle -}}<div>{{ . | markdownify  }}</div>{{- end -}}
-
-              {{- with .description -}}
-                <div class="">{{ . | markdownify | emojify}}</div>
-              {{- end -}}
-          </section>
-
-        {{ end }}
+      {{  .Content }}
 
 
     </div>

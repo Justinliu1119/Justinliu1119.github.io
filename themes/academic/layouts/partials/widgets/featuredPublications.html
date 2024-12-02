@@ -28,6 +28,16 @@
               <div class="">{{ . | markdownify | emojify}}</div>
           {{- end -}}
 
+          {{- with .pdf_link -}}
+              <div class="">
+                <a class="btn btn-outline-primary " href="{{ . }}" target="_blank">
+                    pdf
+                </a>
+              </div>
+          {{- end -}}
+
+
+
         </div>
       </div>
     {{end}}

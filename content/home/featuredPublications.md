@@ -24,6 +24,7 @@ date_format = "Jan 2006"
 #  writer_names = "Yao Liu, Peter Beerel, Yue Hu, Gourav Datta, Kira Beerel"
   writer_names = "Yue Hu, Gigutay Datta, Kira Beerel, **Yao Liu**, Peter Beerel"
   organization = "IEEE SiPS 2024"
+  pdf_link = "/files/Lets_Roll.pdf"
 
 [[item]]
   publication_name = "Exploring the associations between teacher and student depression: evidence from rural primary school students in China"
