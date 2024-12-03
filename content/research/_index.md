@@ -55,8 +55,7 @@ optimize policies based on the inferred reward function
 
 #### 📝  USC Khajavikhan Acoustic Lens Research Lab
 Aug. 2022-May 2023, Los Angeles, CA
-
-Team Leader | Advisor: Prof. Mercedeh Khajavikhan. 
+Research Assistant | Advisor: Prof. Mercedeh Khajavikhan. 
 
 - Coupled laser beam into an optical fiber and designed precise housing for fiber-transducer alignment, utilizing techniques in Gaussian beam propagation(beam waist optimization and mode matching) which has contributed to:
 
@@ -67,10 +66,9 @@ Team Leader | Advisor: Prof. Mercedeh Khajavikhan.
 - Built a temperature detector with an Arduino-embedded drone to detect real-time temperature within the water tank through which the laser beam penetrates
 
 
-#### 📝  Tsinghua University Department of Electronic—MetaCam
+#### 📝  Tsinghua University Department of Electronic—MetaCam Technology
 May 2023-Aug. 2023， Beijing, China
-
-Team Leader | Advisor: Prof. Hongwei Chen & Dr. Chengyang Hu. 
+Research Assistant | Advisor: Prof. Hongwei Chen & Dr. Chengyang Hu. 
 
 - Assisted in implementing a spatial-adaptive CNN architecture that significantly improved imaging quality by effectively mitigating
 optical aberrations through the precise removal of Point Spread Functions (PSFs)
