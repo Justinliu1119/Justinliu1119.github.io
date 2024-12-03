@@ -20,7 +20,7 @@ date_format = "Jan 2006"
  
 [[item]]
   publication_name = "Let’s Roll: Synthetic Dataset Analysis for Pedestrian Detection Across Different Shutter Types"
-  publication_url = ""
+  publication_url = "https://www.dropbox.com/scl/fi/5h5pimrz10lbav7ej70kv/_SiPs_6pages__Let_s_Roll__Synthetic_Dataset_Analysis_for_Pedestrian_Detection_Across_Different_Shutter_Types-1.pdf?rlkey=6jwjq9udgfrm3ljcogr3jimiq&st=axbboexs&dl=0"
 #  writer_names = "Yao Liu, Peter Beerel, Yue Hu, Gourav Datta, Kira Beerel"
   writer_names = "Yue Hu, Gigutay Datta, Kira Beerel, **Yao Liu**, Peter Beerel"
   organization = "IEEE SiPS 2024"
