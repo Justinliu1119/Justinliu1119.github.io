@@ -55,6 +55,7 @@ optimize policies based on the inferred reward function
 
 #### 📝  Khajavikhan Optics and Photonics Groups
 Aug. 2022-May 2023,  University of Southern California
+
 Research Assistant | Advisor: Prof. Mercedeh Khajavikhan. 
 
 - Coupled laser beam into an optical fiber and designed precise housing for fiber-transducer alignment, utilizing techniques in Gaussian beam propagation(beam waist optimization and mode matching) which has contributed to:
@@ -68,6 +69,7 @@ Research Assistant | Advisor: Prof. Mercedeh Khajavikhan.
 
 #### 📝  MetaCam Technology
 May 2023-Aug. 2023， Tsinghua University Department of Electronic
+
 Research Assistant | Advisor: Prof. Hongwei Chen & Dr. Chengyang Hu. 
 
 - Assisted in implementing a spatial-adaptive CNN architecture that significantly improved imaging quality by effectively mitigating
