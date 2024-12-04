@@ -14,7 +14,7 @@ Research Assistant (remote) | Advisor: [Prof. Yinyu Ye](https://web.stanford.edu
 parameters and Certainty Equivalent (CE) settings to determine optimal prices and allocations for achieving market equilibrium
 - Achieved regret 𝑂(𝑙𝑜𝑔(𝑛)) and constraint violation 𝑂(1) using the online adaptive Certainty Equivalent algorithm and Sample
 Averaged Approximation, outperforming the static pricing model benchmarked against the offline oracle
-- Achieved convergence in a revealed parameter setting via Sample Average Approximation(SAA); implemented a decoupling
+- Achieved convergence in a revealed parameter setting via Sampled Average Approximation(SAA); implemented a decoupling
 method to balance the SAA parameters and the CE learned dual prices for faster convergence and robust decision-making
 
 #### 📝  Distributed Inference & Malicious Device Detection
@@ -53,8 +53,8 @@ optimize policies based on the inferred reward function
 
 
 
-#### 📝  USC Khajavikhan Acoustic Lens Research Lab
-Aug. 2022-May 2023, Los Angeles, CA
+#### 📝  Khajavikhan Optics and Photonics Groups
+Aug. 2022-May 2023,  University of Southern California
 Research Assistant | Advisor: Prof. Mercedeh Khajavikhan. 
 
 - Coupled laser beam into an optical fiber and designed precise housing for fiber-transducer alignment, utilizing techniques in Gaussian beam propagation(beam waist optimization and mode matching) which has contributed to:
@@ -66,8 +66,8 @@ Research Assistant | Advisor: Prof. Mercedeh Khajavikhan.
 - Built a temperature detector with an Arduino-embedded drone to detect real-time temperature within the water tank through which the laser beam penetrates
 
 
-#### 📝  Tsinghua University Department of Electronic—MetaCam Technology
-May 2023-Aug. 2023， Beijing, China
+#### 📝  MetaCam Technology
+May 2023-Aug. 2023， Tsinghua University Department of Electronic
 Research Assistant | Advisor: Prof. Hongwei Chen & Dr. Chengyang Hu. 
 
 - Assisted in implementing a spatial-adaptive CNN architecture that significantly improved imaging quality by effectively mitigating
