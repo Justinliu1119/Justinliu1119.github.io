@@ -1,5 +1,6 @@
 ---
 title: Projects
+projects:  
 
 - pjTitle: "Model-Based Advancement in Submersible Navigation--TDOA and Kalman Filtering Techniques"
   link: "projects/tdoa-and-kalman-filtering-models-in-submarine"
