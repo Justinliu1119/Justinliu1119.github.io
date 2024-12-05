@@ -9,7 +9,7 @@ projects:
   desc: |
     -  Led a team of three to design, implement, and simulate Time Difference of Arrival and Kalman Filtering Algorithms to compute the precise location of the submarine and predict its future projectile in scenarios involving loss of communication.
     - Implemented the Kalman Filtering model to optimize trajectory predictions, reduce noise impact, and improve localization accuracy
-    - Developed a probabilistic search model for offline submersibles, employing Maximum Likelihood Estimation (MLE) to define initial search areas and patterns based on Kalman-filtered predictions![image](https://github.com/user-attachments/assets/31ab4ba4-81c1-490d-b304-ec941cbd7557)
+    - Developed a probabilistic search model for offline submersibles, employing Maximum Likelihood Estimation (MLE) to define initial search areas and patterns based on Kalman-filtered predictions
 
 
   
