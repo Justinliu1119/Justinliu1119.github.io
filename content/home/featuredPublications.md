@@ -31,7 +31,7 @@ date_format = "Jan 2006"
 
 #  writer_names = "Yao Liu, Yue Ma, Xiyuan Jia, Cindy Feng, Lucia Liu, Anton Xia"
   writer_names = "Xiyuan Jia<sup>1</sup>, Xinwu Zhang<sup>1*</sup>, Cindy Feng<sup>2</sup>, Lucia Liu<sup>2</sup>, **Yao Liu**<sup>2</sup>, Anton Xia<sup>2</sup>, Yue Ma<sup>2</sup>"
-  organization = "International Journal of Education"
+  organization = "International Journal of Education(under-review)"
 
 
 
