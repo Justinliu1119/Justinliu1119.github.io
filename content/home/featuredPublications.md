@@ -28,7 +28,7 @@ date_format = "Jan 2006"
 
 [[item]]
   publication_name = "Exploring the associations between teacher and student depression: evidence from rural primary school students in China"
-  publication_url = ""
+
 #  writer_names = "Yao Liu, Yue Ma, Xiyuan Jia, Cindy Feng, Lucia Liu, Anton Xia"
   writer_names = "Xiyuan Jia, Xinwu Zhang, Cindy Feng, Lucia Liu, Yao Liu, Anton Xia, Yue Ma"
   organization = "International Journal of Education"
