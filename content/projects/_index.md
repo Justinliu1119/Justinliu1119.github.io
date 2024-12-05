@@ -12,7 +12,7 @@ projects:
     - Developed a probabilistic search model for offline submersibles, employing Maximum Likelihood Estimation (MLE) to define initial search areas and patterns based on Kalman-filtered predictions![image](https://github.com/user-attachments/assets/31ab4ba4-81c1-490d-b304-ec941cbd7557)
 
 
-projects:  
+  
 - pjTitle: "Automated Grocery Management: A Perspective On Sustainability"
   link: "projects/fridge-hub"
   subtitle: "Advisor: Prof. A. Weber"
