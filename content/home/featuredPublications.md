@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   publication_name = "Exploring the associations between teacher and student depression: evidence from rural primary school students in China"
 
 #  writer_names = "Yao Liu, Yue Ma, Xiyuan Jia, Cindy Feng, Lucia Liu, Anton Xia"
-  writer_names = "Xiyuan Jia, Xinwu Zhang, Cindy Feng, Lucia Liu, **Yao Liu**, Anton Xia, Yue Ma"
+  writer_names = "Xiyuan Jia<sup>1</sup>, Xinwu Zhang<sup>1*</sup>, Cindy Feng<sup>2</sup>, Lucia Liu<sup>2</sup>, **Yao Liu**<sup>2</sup>, Anton Xia<sup>2</sup>, Yue Ma<sup>2</sup>"
   organization = "International Journal of Education"
 
 
