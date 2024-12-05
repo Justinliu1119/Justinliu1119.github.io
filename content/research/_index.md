@@ -9,7 +9,7 @@ share: false
 #### 📝  Arrow-Debreu Equilibrium: Adaptive Online Stochastic Optimization 
 May 2024 - Present,  Stanford University
 
-Research Assistant (remote) | Advisor: [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/index.html) (Stanford University)
+Research Assistant (remote) | Advisor: [Prof. Yinyu Ye](https://web.stanford.edu/~yyye/index.html) 
 - Co-developed and simulated an adaptive online optimization algorithm using Sampled Average Approximation (SAA) for revealed
 parameters and Certainty Equivalent (CE) settings to determine optimal prices and allocations for achieving market equilibrium
 - Achieved regret 𝑂(𝑙𝑜𝑔(𝑛)) and constraint violation 𝑂(1) using the online adaptive Certainty Equivalent algorithm and Sample
