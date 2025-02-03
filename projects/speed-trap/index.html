@@ -418,7 +418,7 @@ The speed in cm/sec is shown on the LCD display and also on an indicator dial si
   <div class="article-container">
 
     <div class="article-style">
-      <p><img src="/img/projects/p2d1.png"></p>
+      <p><img src="/img/projects/p2d1.png" alt=""></p>
 <p><strong>Speed Trap</strong></p>
 <p>The speed trap measures how fast an object is moving as it passes two sensors and display the speed on a dial-type indicator. It also relays that speed to a remote device.</p>
 <p>The speed in cm/sec is shown on the LCD display and also on an indicator dial similar to an analog speedometer used on many cars where a pointer rotates to point to the speed. A block diagram of the speed trap is shown on the right and it has the following features:</p>
@@ -430,7 +430,7 @@ The speed in cm/sec is shown on the LCD display and also on an indicator dial si
 <p>A buzzer for playing an alarm tone.</p>
 <p>A serial interface (RS-232) to another speed trap unit. When the local unit measures a speed it sends it to the remote unit. When a speed is received from the remote unit it is displayed on the LCD.</p>
 <p>Two LEDs for comparing the speed measured on the local device with a speed received from the remote unit.</p>
-<p><img src="/img/projects/p2d2.png"></p>
+<p><img src="/img/projects/p2d2.png" alt=""></p>
 <p>The two detectors are made from two white LEDs and two phototransistors. The LEDs and phototransistors are positioned so the light from the LED is illuminating the phototransistor unless some object blocks the path as shown below. The LEDs don&rsquo;t have to be controlled by the Arduino and can be wired to be on all the time. The phototransistors should each be connected to a digital input port bit and monitored using the pin change interrupts similar to how you handle the rotary encoder inputs. When the phototransistor can &ldquo;see&rdquo; the light from the LED the digital input will be a one. When an object blocks the light path, the input will go to a zero.</p>
 
     </div>

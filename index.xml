@@ -25,11 +25,11 @@
       <link>https://justinliu1119.github.io/projects/electric-guitar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://justinliu1119.github.io/projects/electric-guitar/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p3d1.png&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p3d1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I designed a band pass filter that filters specifically the guitar G chord which is around 196Hz. The circuit functions as a device to filter the frequencies that were converted by the pickup for the guitar. The guitar filter detects the magnetic field when one plucks the strings, it then converts the magnetic field to signals that go into the RC bandpass circuit, the circuit then amplifies the signal and feeds it into the speaker.&lt;/p&gt;
 &lt;p&gt;We chose the resistors for R1 and R2 to be 1 kilo-ohms and C1 was chosen to have a capacitance of 1 microFarad and C2 was 680 nanoFarad. Next, we added a noninverting amplifier to our circuit amplifying the signal input of the pickup by a scale of 11 by using the feedback resistor of 10k ohms where R1 was chosen to be 1 kilo-ohm.&lt;/p&gt;
 &lt;p&gt;This project demonstrates the conversion of a signal into a magnetic field, which in turn produced amplified acoustic sound via the speaker. The bandpass filter we designed efficiently selected and outputted the signal within the intended frequency range.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p3d2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p3d2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The output signal shown above matched our expected result. The signal clearly shows a frequency of 196-–196+ being selected to be the output.&lt;/p&gt;
 &lt;p&gt;Our experiment showcased the conversion of a signal into a magnetic field, which in turn produced amplified acoustic sound via the speaker. The bandpass filter we designed efficiently selected and outputted the signal within the intended frequency range. Furthermore, we successfully applied op-amp analysis concepts learned in class to amplify the input signal originating from the pickup.&lt;/p&gt;
 </description>
@@ -66,7 +66,7 @@
       <link>https://justinliu1119.github.io/projects/speed-trap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://justinliu1119.github.io/projects/speed-trap/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p2d1.png&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p2d1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speed Trap&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The speed trap measures how fast an object is moving as it passes two sensors and display the speed on a dial-type indicator. It also relays that speed to a remote device.&lt;/p&gt;
 &lt;p&gt;The speed in cm/sec is shown on the LCD display and also on an indicator dial similar to an analog speedometer used on many cars where a pointer rotates to point to the speed. A block diagram of the speed trap is shown on the right and it has the following features:&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;A buzzer for playing an alarm tone.&lt;/p&gt;
 &lt;p&gt;A serial interface (RS-232) to another speed trap unit. When the local unit measures a speed it sends it to the remote unit. When a speed is received from the remote unit it is displayed on the LCD.&lt;/p&gt;
 &lt;p&gt;Two LEDs for comparing the speed measured on the local device with a speed received from the remote unit.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p2d2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p2d2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The two detectors are made from two white LEDs and two phototransistors. The LEDs and phototransistors are positioned so the light from the LED is illuminating the phototransistor unless some object blocks the path as shown below. The LEDs don&amp;rsquo;t have to be controlled by the Arduino and can be wired to be on all the time. The phototransistors should each be connected to a digital input port bit and monitored using the pin change interrupts similar to how you handle the rotary encoder inputs. When the phototransistor can &amp;ldquo;see&amp;rdquo; the light from the LED the digital input will be a one. When an object blocks the light path, the input will go to a zero.&lt;/p&gt;
 </description>
     </item>
@@ -88,15 +88,15 @@
       <link>https://justinliu1119.github.io/projects/tdoa-and-kalman-filtering-models-in-submarine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://justinliu1119.github.io/projects/tdoa-and-kalman-filtering-models-in-submarine/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d1.png&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;We construct a novel submersible safety assurance system for addressing safety concerns during underwater sightseeing tours of submersibles in the Ionian Sea. Our system incorporates multiple mathematical models and employs methods such as TDOA (Time Difference of Arrival) localization and Kalman filtering to enhance real-time and accurate prediction of the submersible movements, and to improve the success rate of search operations in case of unexpected loss of contact.&lt;/p&gt;
 &lt;p&gt;For locating the submersible, due to factors like observation noise, simple localization methods often yield significant errors in estimating the actual submersible position. Hence, we established a localization model based on acoustic signals transmitted from multiple known buoys and anchor points to continuously obtain real- time observed positions of the submersible through TDOA localization. Then, leveraging the localization model, we created a prediction model based on the Kalman filtering algorithm to optimally predict the submersible position, thereby achieving more precise prediction.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TDOA Localization Model&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Taking advantage of the limited propagation speed of sound in water and the existence of acoustic signal transmitters and receivers, oue team deployed four surface buoys with known positions. The measured position of our submersible in this section plays an important role in the subsequent model in which we used Kalman Filtering to estimate the navigation behavior of the submarine. To achieve clock synchronization and ensure accurate positioning of the submarine, we added the fifth receiver placed at the bottom of the ocean as the clock for synchronization reference. In the submersible acoustic positioning, we use TDOA under the condition of equal sound velocity profile to simulate the position of the submersible position. Each buoy is equipped with an acoustic signal receiver for the signal emitted by the submarine transmitter every t-second.&lt;/p&gt;
 &lt;p&gt;The setup for the experiment of localization through TDOA and the generated simulation result is shown in to figures on the right.&lt;/p&gt;
 &lt;p&gt;Note: We run the simulation of TDOA based on the following instantiations:The coordinates to be stations are set to[−800 − 200 3], [−200 − 800 0], [−800 − 1000 0], [0 0 0], [−500 − 500 − 500]. We uniformly place a total of 1000 test points which represent predetermined coordinates of the submarines in space starting from coordinates [100 − 100 − 50], with intervals of 60 𝑚 along the x-axis, 60 𝑚 along the y-axis, and 30 𝑚 along the z-axis.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://justinliu1119.github.io/img/projects/p4d3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Estimation of Location via Kalman Filter&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;To implement the Kalman filtering algorithm, it is necessary to obtain the state transition equation of the object. Using this equation and the object&amp;rsquo;s posterior estimated value at time t, as well as the assumed noise influence, the object&amp;rsquo;s prior estimated value at time t+1, or the prediction result, is calculated. In this instance, the state transition equation of the Kalman filtering algorithm is derived based on the data sent from the submersible to the host ship at time t, including the submersible motion velocity and acceleration in all directions at time t, as well as the ocean current acceleration in all directions. This is combined with the optimal estimated position coordinates obtained through the Kalman filtering algorithm at time t and the assumed noise, to infer the submersible position coordinates at time t+1.&lt;/p&gt;
 &lt;p&gt;In addition to the state transition equation, the implementation of the Kalman filtering algorithm also requires a measurement equation, obtained from actual observation data and the assumed noise influence to derive the observed state. In this example, the observation equation of the Kalman filtering algorithm is based on the positioning results obtained from the location model and the assumed noise addition. The location model, as previously mentioned, calculates the submersible position coordinates by receiving acoustic signals from buoys.&lt;/p&gt;
