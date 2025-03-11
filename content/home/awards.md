@@ -19,6 +19,9 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 +++
+- **Discovery Scholar Distinction**, USC, March. 2025
+
+- **Gold Medalist**, Kaggle--Chatbot Arena Human Preference Predictions, Aug 2024
 
 - **Honorable Mention**, Mathematical Contest in Modeling, COMAP, Spring 2024
 
