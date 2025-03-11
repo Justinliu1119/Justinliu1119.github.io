@@ -46,8 +46,10 @@ July 2024 - Present,  Northwestern University
 Research Assistant(remote) | Advisor: Prof. Qi Zhu
 - Explored Markov Decision Processes with augmented state spaces to handle time delays, analyzing their impact on maintaining the
 Markovian property and improving reinforcement learning efficiency in delayed environments
-- Studied frameworks for enforcing safety in reinforcement learning through bi-level optimization, leveraging soft barriers and
-optimize policies based on the inferred reward function
+- Trained Advantage Weighted Actor-Critic (AWAC), enabling policy learning from offline datasets with online fine-tuning.
+- Implemented reward inference with variational-delay via Adversarial Inverse Reinforcement Learning (AIRL), Generative Adversarial Imitation Learning (GAIL), and Behavior Cloning (BC) to infer reward functions from expert demonstrations. 
+![image](https://github.com/user-attachments/assets/d6ea090c-77f1-445a-8e0f-cb52b87b6a62)
+
 
 
 
