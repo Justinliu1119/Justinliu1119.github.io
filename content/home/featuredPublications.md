@@ -24,6 +24,14 @@ date_format = "Jan 2006"
 #  writer_names = "Yao Liu, Peter Beerel, Yue Hu, Gourav Datta, Kira Beerel"
   writer_names = "Yue Hu, Gigutay Datta, Kira Beerel, **Yao Liu**, Peter Beerel"
   organization = "IEEE SiPS 2024"
+
+
+[[item]]
+  publication_name = "An Efficient Distributed Inference Framework For IoT Systems with Byzantine Fault Detection"
+
+#  writer_names = "Xuan Zhou, Utkarsh Mohan, Yao Liu, Peter Beerel"
+  writer_names = "Xuan Zhou, Utkarsh Mohan, Yao Liu, Peter Beerel"
+  organization = "GLSVLSI 2025"
  
 
 [[item]]
